@@ -77,8 +77,8 @@ Result is a bunch of numbers for each category.
 * The free snacks [no point]
 
 6. Water game. 
-* I'm sure they'll do one next year! [hardware +1] [electrical +1] [experience +1]
-* I am neutral in my stance. [ALL +0.5]
+* I'm sure they'll do one next year! [hardware +1] [electrical +1] 
+* I am neutral in my stance. [ALL +0.3]
 * What is a water game? [ALL -0.2] 
 
 7. What is this? [image of T-handle]
