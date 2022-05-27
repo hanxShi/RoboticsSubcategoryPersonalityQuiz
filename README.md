@@ -1,5 +1,5 @@
 # RoboticsSubcategoryPersonalityQuiz
-Personality quiz type format short multiple-choice quiz for those that are unsure of where to start in robotics. 
+Personality quiz type format, short multiple-choice quiz, for those that are unsure of where to start in robotics. 
 Includes types of questions such as:
 * Situational questions - what would you do if _____ happened
 * Describe yourself questions
@@ -10,52 +10,55 @@ Includes types of questions such as:
 
 Possible subcategories:
 
-Leadership
+ALL refers to only: [hardware, software, electrical, marketing, outreach, scouting, safety]
 
-The "robot" part in "robotics" 
-  * Hardware
-  * Software
-  * Electrical
-  
-The underappreciated, but very important, other categories:
-  * Marketing
-  * Outreach
-  * Scouting
-  * Safety
+experience = increment these values above at different scales, sum them, and use a threshold for different levels 
+* Lots of experience = +3
+* Some experience = +2
+* A little experience = +1
+* No experience = +0
 
-experience = level of experience measured by incremented variable throughout
+//currently approximations
+* Veteran: > 50 
+* Intermediate: >20
+* Rookie: > 10
+
+leadership?
+
+Result is a bunch of numbers for each category. 
 
 # The quiz framework
 
 1. The robot is on fire. What do you do?
-  * Not my problem. I will never have to deal with something like this. [software +1]
+  * Not my problem. I will never have to deal with something like this. [software +2]
   * Take out your phone to video the entire scene. [marketing +2] [safety -1] 
-  * Scream in terror and run as far away as you possibly can. [safety +0.5] [experience -1]
-  * I have no firefighting skills, but I can help calm everybody down. [scouting +1] [leadership + 2]
-  * Throw something at it. Preferably a mallet. [hardware +1] [safety -1]
-  * Turn it off. [electrical +1] [safety +1]
+  * Scream in terror and run as far away as you possibly can. [safety +0.5]
+  * Help calm everybody down. [scouting +1] [leadership + 2]
+  * Throw something at it. Like a mallet. [hardware +1] [safety -1]
+  * Turn the robot off. [electrical +2] [safety +1]
   * Find the nearest fire extinguisher. [safety +2] [leadership + 1]
   
 2. What is the worst thing you have done out of the below (if any)?
+//maybe check all that apply
 * I don't comment my code. [software +1]
 * I unplugged a cord by pulling on the cord instead of the plug part. [electrical +1]
 * I stalked someone on the Internet. [scouting +1]
 * I don't constrain my lines in CAD. [hardware +1]
 * I made an elementary-school-aged child cry. [outreach +1]
-* I don't use text styles. [marketing +1]
-* I have done all of the above. [ALL +1]
+* I used Comic Sans in a formal document. [marketing +1]
+* I have done all of the above. [ALL +1] (this will give you a lot of experience)
 * I have never done any of these things. [safety +1]
 
 3. What is the first thing you do at a robotics meeting?
   * Head into the shop [hardware +1.5] [electrical +1]
   * Socialize [scouting +1]
-  * Ask Enrique about our budget [marketing +1]
-  * Open your laptop or log into a computer [software +1]
-  * Check that everyone is wearing safety glasses {safety +2] [leadership +1]
+  * Obsessively check our budget [marketing +1]
+  * Open your laptop or log into a computer [software +1] [hardware +1]
+  * Check that everyone is wearing safety glasses [safety +2] [leadership +1]
   * Get my friend some free snacks (because you brought your friend) [outreach +1]
   * [electrical]
 
-4. Of the choices below, what would you most want to have in the event that you were a tribute for the Hunger Games? Please choose one. 
+4. What would you most want to have if you were a tribute for the Hunger Games? Please choose one. 
 * A flamethrower (to burn down enemies) [hardware +1]
 * A Tesla coil (because it's cool). [electrical +1]
 * Plenty of food and water (because I'm going to camp out and stay away from everyone). [safety +1]
@@ -65,56 +68,57 @@ experience = level of experience measured by incremented variable throughout
 * An invisible high-speed drone (to spy on other tributes) [marketing +1]
 * What are the Hunger Games? [no point]
 
-5. Why did you join robotics? (Please choose all that apply (?). We do not have an NLP to process open-ended responses for instant feedback) (can have user-ordered list or multiple selection)
+5. Why did you join robotics? (Please choose all that apply (?). We do not have an NLP to process open-ended responses for instant feedback) 
+// can have user-ordered list or multiple selection?
 * I want to pursue a technical STEM-like career in the future and thought robotics could be an excellent addition to my resume. [hardware +1] [software +1] [electrical +1]
 * I want to make friends. [scouting +1]
 * I want to help make a difference in my community and having a great time while I'm at it. [outreach +1]
 * I want to go on cool trips. [marketing +1]
-* The free snacks [no point?]
+* The free snacks [no point]
 
-6. Water game?/
+6. Water game. 
 * I'm sure they'll do one next year! [hardware +1] [electrical +1] [experience +1]
-* I am neutral in my stance. [marketing +1] [outreach +1] 
-* What is a water game? [experience -1] 
+* I am neutral in my stance. [ALL +0.5]
+* What is a water game? [ALL -0.2] 
 
 7. What is this? [image of T-handle]
-* A hex shaft. [software +1]
+* A hex shaft. [hardware -1]
 * A hex key. [hardware +1] 
-* A screwdriver. [electrical +1]
-* A A funny-looking yellow object with something sticking out of it [experience -1] 
+* A screwdriver. [hardware -1]
+* A A funny-looking yellow object with something sticking out of it [hardware -1] 
 
 8. Have you ever been to Harbor Freight? If so, how did you like it?
-* Yes, it was AMAZING. [hardware +2] [experience +1]
-* Yes, but the products there are not of good quality. [electrical +1] [hardware +1] [experience +1]
-* Yes, I guess it was cool. [no point]
-* No, but I've heard about it. [outreach +1]
-* No, what's "Harbor Freight"? [software +2]
+* Yes, it was AMAZING. [hardware +3] 
+* Yes, but the products there are not of good quality. [electrical +1] [hardware +2] 
+* Yes, I guess it was cool. [no point] [ALL +1]
+* No, but I've heard about it. [no point]
+* No, what's "Harbor Freight"? [software +2] [hardware -1]
 
 9. What does FIRST stand for?
-* Friends In Robotics, Science, and Technology [hardware +1] [electrical +1]
-* Favorable International Relations of the Students and Teachers [hardware +1] [electrical +1]
-* For Inspiration and Recognition of Science and Technology [outreach +1] [marketing +1] [scouting +1]
-* Future Innovation in Robotics, Science, and Technology [software +1] [hardware +1] [electrical +1]
-* Nothing, it's capitalized for no reason, like LEGO [safety +1] [hardware +1]
+* Friends In Robotics, Science, and Technology [no point]
+* Favorable International Relations of the Students and Teachers [no point]
+* For Inspiration and Recognition of Science and Technology [ALL +0.5] (gives you a lot of experience)
+* Future Innovation in Robotics, Science, and Technology [no point]
+* Nothing, it's capitalized for no reason, like LEGO [no point]
 
-10. What is the object you most often accidentally steal from the robotics shop?
-  * I make sure to put everything back after I use it (Good job!!!) [safety +1]
-  * Safety glasses [hardware +1]
-  * The little green battery tabs (voltage readers) [electrical +1] [experience +1]
+10. What is the object you most often (accidentally) steal from the robotics shop?
+  * I make sure to put everything back after I use it (Good job!!!) [safety +2] [leadership +1]
+  * Safety glasses [hardware +3]
+  * The little green battery tabs (voltage readers) [electrical +3]
   * Snacks [marketing +1] [outreach +1] [scouting +1]
-  * I don't take anything from the robotics shop. [software +1]
+  * I don't take anything from the robotics shop. [software +3] 
 
 11. Is Topher a god? (*not a good long-term question*)
-* ABSOLUTELY. [software +1] [experience +1]
-* No. [experience +1] [hardware +1]
-* Who is Topher? [outreach +1] [experience -1]
+* ABSOLUTELY. [software +3] [experience +1]
+* No. [ALL +0.2] [hardware +1]
+* Who is Topher? [no point]
 
 12. Which of these excerpts sounds most like you?
-* "Yoooo, robotics is hella poggor. Everything else seems kinda sus" [hardware +2]
-* "That's crazy. Yeah, I love robotics." [electrical +1]
+* "Yoooo, robotics is hella poggor. Everything else seems kinda sus" [hardware +1]
+* "That's crazy. Yeah, I love robotics." [electrical +2]
 * "Robotics! Word to your mother!" [scouting +1]
 * "I love robotics!" [marketing +1] [outreach +1]
-* "Robotics is cool." [software +1] [hardware +1] [electrical +1]
+* "Robotics is cool." [software +0.5] [hardware +0.5] [electrical +0.5]
 * "I am pleased to be accquainted with robotics." [software +2]
 
 13. You  may be vey confused about how this quiz is related to robotics at this point. Here is a more sensible question: what would you most like to do as a part of robotics club? Short descriptions of each sub-category are listed below. 
