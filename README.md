@@ -127,7 +127,16 @@ experience = level of experience measured by incremented variable throughout
 * Safety: wear bright yellow gear and tell everyone to follow proper safety procedures [safety +1]
 * Outreach: talk to people outside of robotics about robotics [outreach +1]
 
-14. Did you enjoy this quiz?
+14. How would you describe yourself?
+* Studious [software +1]
+* Hands-on [hardware +1]
+* Creative [marketing +1]
+* Helpful to others [outreach +1]
+* Good with people [scouting +1]
+* Careful and assertive [safety +1]
+* Chill [electrical +1]
+
+15. Did you enjoy this quiz?
 * Yes [marketing +1][software +1][safety +1]
 * No [hardware +1]
 
