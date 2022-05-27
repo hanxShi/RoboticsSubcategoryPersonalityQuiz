@@ -11,7 +11,6 @@ Includes types of questions such as:
 Possible subcategories:
 
 Leadership
-Team Captain 
 
 The "robot" part in "robotics" 
   * Hardware
@@ -25,8 +24,6 @@ The underappreciated, but very important, other categories:
   * Safety
 
 experience = level of experience measured by incremented variable throughout
-
-Number of questions: 20
 
 1. The robot is on fire. What do you do?
   * Not my problem. I will never have to deal with something like this. [software +1]
