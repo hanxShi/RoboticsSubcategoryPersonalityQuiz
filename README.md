@@ -141,6 +141,6 @@ Result is a bunch of numbers for each category.
 * Chill [electrical +1]
 
 15. Did you enjoy this quiz?
-* Yes [marketing +1][software +1][safety +1]
-* No [hardware +1]
+* Yes 
+* No 
 
