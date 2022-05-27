@@ -34,9 +34,16 @@ Number of questions: 20
 1. The robot is on fire. What do you do?
   * Not my problem. I will never have to deal with something like this. (software)
   * Take out your phone to video the entire scene. (marketing)
-  * Scream in terror and run as far away as you possibly can. (outreach)
+  * Scream in terror and run as far away as you possibly can. (no point?)
   * I have no firefighting skills but I can help calm everybody down. (scouting) (leadership + 2)
   * Throw something at it. Preferably a mallet. (hardware)
   * Turn off the robot. (electrical) 
   * Find the nearest fire extinguisher. (safety) (leadership +1)
-3. What do you do when you see someone
+  
+2. What do you do when you see someone doing [unsafe action]?
+3. What is the first thing you do at a robotics meeting?
+4. Of the choices below, what would you take for the Hunger Games? Please choose one. 
+5. Why did you join robotics? (Please choose the most accurate answer. We do not have an NLP to process open-ended responses for instant feedback)
+6. Water game?
+7. What is this? [image of hex shaft]
+8. 
