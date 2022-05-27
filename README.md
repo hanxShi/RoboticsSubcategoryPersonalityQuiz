@@ -25,7 +25,7 @@ The underappreciated, but very important, other categories:
 
 experience = level of experience measured by incremented variable throughout
 
-# The Quiz
+# The quiz framework
 
 1. The robot is on fire. What do you do?
   * Not my problem. I will never have to deal with something like this. [software +1]
