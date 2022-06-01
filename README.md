@@ -1,4 +1,7 @@
 # RoboticsSubcategoryPersonalityQuiz
+
+Based on https://github.com/edubz99/Simple-Personality-Quiz 
+
 Personality quiz type format, short multiple-choice quiz, for those that are unsure of where to start in robotics. 
 Includes types of questions such as:
 * Situational questions - what would you do if _____ happened
